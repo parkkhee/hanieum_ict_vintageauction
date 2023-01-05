@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="ko">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta charset="utf-8">
+    <title>중고거래 채팅</title>
+</head>
+<body>
+<noscript>
+    <h2>Sorry! Your browser doesn't support Javascript</h2>
+</noscript>
+
+
+<li>접속 Id: <span th:text="${senderId}"></span></li>
+<li>수신 Id: <span th:text="${receiverId}"></span></li>
+<li>채팅방 Id: <span th:text="${chatroomId}"></span></li>
+<form id="enterForm" name="enterForm" nameForm="enterForm">
+    <button type="submit" class="primary">채팅 입장</button>
+</form>
+
+<div>
+    <h2>채팅 기록</h2>
+    <tr th:each="chatmessage: ${chatMessageList}">
+        <li>
+            <td th:text="${chatmessage.senderId}"></td>
+            <td th:text="${chatmessage.content}"></td>
+            <td th:text="${chatmessage.sendDateTime}"></td>
+        </li>
+    </tr>
+</div>
+
+<div id="chat-page" class="hidden">
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>채팅창</h2>
+        </div>
+        <ul id="messageArea">
+
+        </ul>
+        <form id="messageForm" name="messageForm" nameForm="messageForm">
+                <div class="input-group clearfix">
+                    <input type="text" id="message" placeholder="메시지를 입력" autocomplete="off" class="form-control"/>
+                    <button type="submit" class="primary">전송</button>
+                </div>
+        </form>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="/chat/js/chatMain.js" chatset = "utf-8"></script>
+</body>
+</html>

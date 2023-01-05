@@ -1,0 +1,13 @@
+.search-input {
+  border: 5px solid #c1daf0;
+  border-radius: 10px 10px 10px 10px;
+  height: 30px;
+}
+
+.search-btn {
+  background-color: orange;
+  height: 30px;
+  border: 0;
+  border-radius: 0.5em;
+  font-weight: bold;
+}

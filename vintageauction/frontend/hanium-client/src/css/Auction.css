@@ -1,0 +1,14 @@
+.action-upload-container {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    min-width: 400px;
+    height: 60vh;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 5vh;
+    align-content: center;
+    border: 0;
+    border-radius: 2.5em;
+}

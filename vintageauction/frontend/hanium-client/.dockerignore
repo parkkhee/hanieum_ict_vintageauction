@@ -1,0 +1,7 @@
+.git
+.gitignore
+/node_modules
+Dockerfile
+README.md
+/src/itemImages/*
+/src/memberProfiles/*

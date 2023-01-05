@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2 th:text="${vintageBoard.vintageTitle}">중고거래 게시글 번호</h2>
+    <hr/>
+    <table>
+    <tr>
+        <td>아이템 이름 : </td>
+        <td th:text="${vintageBoard.vintageItem.itemName}">아이템 정보</td>
+    </tr>
+    <tr>
+        <td>아이템 가격: </td>
+        <td th:text="${vintageBoard.vintageItem.itemPrice}">아이템 가격</td>
+    </tr>
+    <tr>
+        <td>게시글 본문 : </td>
+        <td th:text="${vintageBoard.vintageDetail}" >중고거래 게시글 본문</td>
+    </tr>
+    </table>
+    <button type="button" onclick="location.href='/vintages'">목록</button>
+</body>
+</html>

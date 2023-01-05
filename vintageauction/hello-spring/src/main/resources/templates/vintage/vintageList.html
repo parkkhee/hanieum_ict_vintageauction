@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>번호</td>
+            <td>제목</td>
+            <td>작성자</td>
+        </tr>
+
+        <tr th:each="vintageBoard : ${vintageBoards}">
+            <td th:text="${vintageBoard.vintageId}">게시글 번호</td>
+            <td>
+                <a href="/" th:text="${vintageBoard.vintageTitle}"
+                   th:href="@{/vintages/{vintageBoardId}(vintageBoardId=${vintageBoard.vintageId})}">
+                </a>
+            </td>
+            <td th:text="${vintageBoard.member.memberId}">작성자</td>
+        </tr>
+    </table>
+    <button type="button" onclick="location.href='/'">메인 페이지로 이동</button>
+</body>
+</html>

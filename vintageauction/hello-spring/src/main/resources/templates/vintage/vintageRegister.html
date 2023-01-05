@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>중고 거래 게시판 등록</title>
+</head>
+<body>
+    <form action="/vintage/new" method="POST">
+        <div class="form-group">
+            <p>
+                <label for="member">작성자</label>
+                <select id="member" name="memberId">
+                    <option value="">회원선택</option>
+                    <option th:each="member : ${members}"
+                            th:value="${member.memberNo}"
+                            th:text="${member.memberId}"></option>
+                </select>
+            </p>
+            <p>
+                <label for="vintageTitle">중고 거래 글 제목</label>
+                <input type="text" id="vintageTitle" name="vintageTitle" placeholder="제목을 입력하세요">
+            </p>
+            <p>
+                <label for="itemName">아이템 이름</label>
+                <input type="text" id="itemName" name="itemName" placeholder="이름을 입력하세요">
+            </p>
+            <p>
+                <label for="itemPrice">아이템 가격</label>
+                <input type="text" id="itemPrice" name="itemPrice" placeholder="이름을 입력하세요">
+            </p>
+            <label for="vintageDetail">중고 거래 본문</label>
+            <textarea id="vintageDetail" name="vintageDetail"></textarea>
+        </div>
+        <button type="submit">등록</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,282 @@
+.vintage-route {
+  align-content: center;
+  width: 50%;
+  min-width: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.vintage-route .go-to-upload {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 200px;
+  height: 102px;
+  top : -103px;
+  background-color: white;
+  border: 0;
+  border-radius: 100px 100px 0px 0px;
+  background-color: rgba( 255, 255, 255, 0 );
+  padding-top: 84px;
+  font-weight: bold;
+  transition: .2s all ease;
+}
+
+.go-to-upload:hover {
+  border: gray solid 3px;
+  padding-top: 81px;
+}
+
+.vintage-route h1 {
+  text-align: center;
+}
+
+.vintage-route .search-form {
+  text-align: right;
+}
+
+.vintage-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 35px;
+  margin-bottom: 10%;
+}
+
+.vintage-upload-container {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  max-width: 900px;
+  min-width: 400px;
+  height: 60vh;
+  min-height: 400px;
+  margin: auto;
+  margin-top: 5vh;
+  align-content: center;
+  border: 0;
+  border-radius: 2.5em;
+}
+
+.vintage-upload-container h3 {
+  position: relative;
+  margin: auto;
+  top: 7%;
+  margin-left: 10%;
+  font-size: 1.2em;
+  height: 1%;
+}
+
+.vintage-upload-form {
+  position: relative;
+  margin: auto;
+  display: flex;
+  height: 80%;
+  top: 10%;
+}
+
+.vintage-upload-form .image-form {
+  width: 30%;
+  margin-left: 5%;
+  margin-top: 5vh;
+  height: 100%;
+  text-align: center;
+}
+
+.vintage-upload-form img {
+  border: 5px solid lightgray;
+  border-radius: 30%;
+  width: 80%;
+  height: 30vh;
+}
+.image-form label {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #999;
+  font-size: 2.5vmin;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  border: 3px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: 0.25em;
+  width: 50%;
+  text-align: center;
+  vertical-align: middle;
+  height: 10%;
+}
+.vintage-upload-form .image-form input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.vintage-upload-form .text-form label {
+  font-weight: bolder;
+  display: inline-block;
+  width: 30%;
+}
+
+.vintage-upload-form .text-form input {
+  display: inline-block;
+  border: 3px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: 0.25em;
+}
+.vintage-upload-form .text-form select {
+  display: inline-block;
+  border: 3px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: 0.25em;
+}
+
+.vintage-upload-form .text-form {
+  margin-top: 1vh;
+  width: 50%;
+  margin-left: 5%;
+  height: 100%;
+}
+
+.vintage-upload-form .text-form * {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 2.5vmin;
+  height: 10%;
+}
+
+.vintage-upload-form .text-form .detail-input {
+  height: 20%;
+}
+
+.vintage-upload-form .vintage-submit {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  bottom: 0;
+  right: 5%;
+  background-color: orange;
+  border: 0;
+  border-radius: 0.5em;
+  font-weight: bold;
+}
+
+.vintage-detail-container {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  max-width: 900px;
+  min-width: 400px;
+  height: 60vh;
+  min-height: 400px;
+  margin: auto;
+  align-content: center;
+  border: 0;
+  border-radius: 2.5em;
+}
+
+.vintage-detail-container .category-detail {
+  padding-top: 3%;
+  padding-left: 8%;
+  font-weight: bold;
+  font-size: 2.5vmin;
+  border: none;
+}
+
+.vintage-detail-container .content-title {
+  font-size: 3.5vmin;
+  border: none;
+  margin-top: 1%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+.item-info {
+  display: flex;
+  margin-left: 10%;
+}
+
+.text-info {
+  margin-left: 10%;
+}
+
+.image-info img {
+  border: 5px solid lightgray;
+  border-radius: 30%;
+  width: 250px;
+  height: 250px;
+}
+
+.text-info div {
+  border: 3px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: 0.25em;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+.text-info .detail-input1 {
+  padding-left: 5px;
+  width: 245px;
+}
+
+.text-info .detail-input2 {
+  margin-left: 41px;
+  padding-right: 5px;
+  width: 245px;
+  text-align: right;
+}
+
+.text-info .detail-input3 {
+  padding-left: 5px;
+  margin-left: 41px;
+  width: 245px;
+  height: 40%;
+}
+
+.vintage-detail-container button {
+  position: absolute;
+  height: 8%;
+  width: 8%;
+  bottom: 25px;
+  background-color: orange;
+  border: 0;
+  border-radius: 0.5em;
+  font-weight: bold;
+}
+
+#modeButton, .openModalBtn, .bidButton {
+  right: 5%;
+}
+
+#deleteButton {
+  right: 15%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.modal-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+}
+
+.modal-container .openModalBtn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+}

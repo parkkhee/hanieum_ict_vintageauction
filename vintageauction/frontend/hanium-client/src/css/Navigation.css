@@ -1,0 +1,123 @@
+.navigator {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  justify-content: right;
+  display: flex;
+  list-style: none;
+}
+.icon1 {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.icon2 {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.navigator li {
+  z-index: 1;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.navigator .home {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.navigator .profile {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.item-navigater-container {
+  position: absolute;
+  width: 100%;
+}
+
+.item-navigator {
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+}
+
+.item-navigator li {
+  padding: 10px;
+  font-size: 3.5vmin;
+  margin-top: 50px;
+}
+
+.vintage {
+  text-decoration-line: none;
+  color: white;
+}
+.Auction {
+  text-decoration-line: none;
+  color: white;
+}
+
+.vintage:visited {
+  color: white;
+}
+.Auction:visited {
+  color: white;
+}
+
+.icon {
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 100px;
+}
+.icon-box {
+  width: 200px;
+  height: 100px;
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 100px 100px 0px 0px;
+}
+
+.Profile {
+  text-decoration-line: none;
+  color: white;
+}
+.Profile :visited {
+  color: white;
+}
+.Home {
+  text-decoration-line: none;
+  color: white;
+}
+.Home :visited {
+  color: white;
+}
+.SignUp {
+  text-decoration-line: none;
+  color: white;
+}
+.SignUp :visited {
+  color: white;
+}
+.SignIn {
+  text-decoration-line: none;
+  color: white;
+}
+.SignIn :visited {
+  color: white;
+}
+.SignOut {
+  text-decoration-line: none;
+  color: white;
+}
+.SignOut :visited {
+  color: white;
+}

@@ -1,0 +1,15 @@
+.header-container {
+    position: relative;
+    width: 100%;
+    height: 141px;
+    display: flex;
+    font-family: "prince";
+    background-color: #C1DAF0;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 5vmin;
+    color: white;
+    margin-left: 10px;
+}

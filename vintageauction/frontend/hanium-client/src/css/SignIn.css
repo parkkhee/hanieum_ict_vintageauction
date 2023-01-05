@@ -1,0 +1,89 @@
+.signIn-container {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    min-width: 400px;
+    height: 60vh;
+    min-height: 400px;
+    margin: auto;
+    align-content: center;
+    border: 0;
+    border-radius: 2.5em;
+}
+
+.signIn-container h1 {
+    position: relative;
+    margin: auto;
+    top: 5vh;
+    margin-left: 20%;
+    height: 5vh;
+}
+
+.signIn-container .signIn-form {
+    top: 3vh;
+    position: relative;
+    margin: auto;
+    height: 90%;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.signIn-form label {
+    font-weight: bolder;
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+}
+
+.signIn-form * {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    font-size: 2.5vmin;
+}
+
+.signIn-form input{
+    display: inline-block;
+    border: 3px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .3em;
+    height: 30px;
+    width: 30%;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+.signIn-form .signUp-submit {
+    display: inline-block;
+    border: 3px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .3em;
+    height: 30px;
+    width: 30%;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    width: 15%;
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: orange;
+    border: 0;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.signIn-form .submit {
+    width: 15%;
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: orange;
+    border: 0;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.signIn-form span {
+    font-size: small;
+    color: #a0a0a0;
+    font-weight: bold;
+}
