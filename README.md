@@ -1,3 +1,6 @@
-# hanieum_ict_vintageaction
 
 ![hanieumIMG](https://user-images.githubusercontent.com/76894305/210727838-aeb8fb26-69b3-428b-a057-f8cd909b95fb.png)
+
+# 중고 거래&경매 플랫폼 개발
+클라우드에서 최적화되어 동작하는 MSA기반의 중고거래 플랫폼과 트래픽 및 로그를 추적 관리할 수 있는 운영관리 플랫폼을 개발합니다. 더불어 경매 시스템을 추가하여 기존에 운영되는 중고거래 플랫폼과는 차별성을 두었습니다.
+
