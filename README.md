@@ -34,6 +34,7 @@
 ![image](https://user-images.githubusercontent.com/76894305/210754827-9ae582fe-811b-4996-818f-c72a5c83e6ad.png)
 ### 상품 등록 화면
 ![image](https://user-images.githubusercontent.com/76894305/210755458-cf96c31b-8049-43c1-825f-adb44fa0bbb1.png)
-### 상품 등록 화면
+### 프로젝트 전체적인 과정 miroboard
+https://miro.com/app/board/uXjVO6-SY8g=/
 
 
