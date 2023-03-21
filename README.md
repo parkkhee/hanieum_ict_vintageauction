@@ -36,5 +36,6 @@
 ![image](https://user-images.githubusercontent.com/76894305/210755458-cf96c31b-8049-43c1-825f-adb44fa0bbb1.png)
 ### 프로젝트 전체적인 과정 miroboard
 https://miro.com/app/board/uXjVO6-SY8g=/
-### 미완성 프로젝트,,
+
+#### (미완성 프로젝트,,)
 
